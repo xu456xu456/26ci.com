@@ -7,62 +7,64 @@
   <meta name="description" content="26CI.com — short, memorable .com for the 2026 era of Cognitive Intelligence. Ideal for AI, data, education, voice, or smart products. Domain for sale." />
   <style>
     :root{
-      --bg:#f7f9fc;
-      --ink:#0b1324;
-      --muted:#5c6a84;
-      --brand:#0f62fe;
+      --bg:#0b0f14;
+      --ink:#e8f3ff;
+      --muted:#a7b6c9;
+      --brand:#7df9ff;
       --brand2:#7c4dff;
-      --card:#ffffff;
-      --line:#e6ecf5;
+      --card:#0f1621;
+      --line:#1b2639;
     }
     *{box-sizing:border-box}
     html,body{height:100%}
     body{
       margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, "Noto Sans", "PingFang SC";
-      color:var(--ink); background:
-        radial-gradient(1200px 600px at 10% -10%, #e7f0ff 8%, transparent 60%),
-        radial-gradient(900px 500px at 110% 10%, #efe7ff 10%, transparent 60%),
+      color:var(--ink);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, #11233a 10%, transparent 60%),
+        radial-gradient(900px 500px at 110% 10%, #2a1046 10%, transparent 60%),
         var(--bg);
-      -webkit-font-smoothing:antialiased; line-height:1.6;
+      -webkit-font-smoothing:antialiased; line-height:1.55;
     }
-    .container{max-width:1120px; margin:0 auto; padding:0 20px}
-    .topbar{padding:10px 0; border-bottom:1px solid var(--line); background:#fbfdff}
-    .note{font-size:13px; color:var(--muted); text-align:center}
-    header{display:flex; align-items:center; justify-content:space-between; padding:26px 0}
-    .logo{font-weight:800; letter-spacing:.4px; font-size:22px}
+    .container{max-width:1120px; margin:0 auto; padding:0 18px}
+    .topbar{padding:8px 0; border-bottom:1px solid var(--line); background:#0b121b}
+    .note{font-size:12px; color:var(--muted); text-align:center}
+    header{display:flex; align-items:center; justify-content:space-between; padding:18px 0}
+    .logo{font-weight:800; letter-spacing:.4px; font-size:20px}
     .logo b{background:linear-gradient(135deg,var(--brand),var(--brand2)); -webkit-background-clip:text; -webkit-text-fill-color:transparent}
-    .btn{display:inline-block; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:700; border:1px solid var(--line); color:var(--ink); background:#fff}
-    .btn.primary{background:linear-gradient(135deg, #2b6cff, #8a7dff); color:#fff; border:none; box-shadow:0 6px 18px rgba(15,98,254,.18)}
-    .btn.ghost{background:#fff; color:var(--ink)}
-    .hero{display:grid; grid-template-columns:1.2fr .8fr; gap:28px; align-items:center; padding:52px 0 30px}
-    .title{font-size:48px; line-height:1.05; margin:10px 0 14px; letter-spacing:-.5px}
-    .lead{font-size:18px; color:var(--muted)}
-    .card{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px}
+    .btn{display:inline-block; padding:8px 12px; border-radius:10px; text-decoration:none; font-weight:700; border:1px solid var(--line); color:var(--ink); background:#0e1420}
+    .btn.primary{background:linear-gradient(135deg, #54e6ff, #8a7dff); color:#09111a; border:none; box-shadow:0 6px 18px rgba(125,249,255,.18)}
+    .btn.ghost{background:#0e1420; color:var(--ink)}
+    .hero{display:grid; grid-template-columns:1.1fr .9fr; gap:18px; align-items:center; padding:30px 0 18px}
+    .title{font-size:40px; line-height:1.05; margin:6px 0 10px; letter-spacing:-.4px}
+    .lead{font-size:16px; color:var(--muted)}
+    .card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px}
     .hero-card{aspect-ratio:4/3; display:grid; place-items:center}
-    h2{margin:0 0 14px; font-size:22px}
-    .section{padding:32px 0}
-    .grid2{display:grid; gap:16px; grid-template-columns:repeat(2,1fr)}
-    .grid3{display:grid; gap:16px; grid-template-columns:repeat(3,1fr)}
-    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid2,.grid3{grid-template-columns:1fr}.title{font-size:34px}}
+    h2{margin:0 0 10px; font-size:20px}
+    .section{padding:22px 0}
+    .grid2{display:grid; gap:12px; grid-template-columns:repeat(2,1fr)}
+    .grid3{display:grid; gap:12px; grid-template-columns:repeat(3,1fr)}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid2,.grid3{grid-template-columns:1fr}.title{font-size:30px}}
     .muted{color:var(--muted)}
-    footer{padding:40px 0 60px; color:var(--muted); font-size:13px; text-align:center; border-top:1px solid var(--line)}
-    code.k{padding:2px 6px; border-radius:6px; background:#f1f4fa; border:1px solid var(--line); font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size:12px; color:#2b3a55}
-    .tags{display:flex; gap:8px; flex-wrap:wrap; margin-top:10px}
-    .tag{font-size:12px; padding:6px 10px; border:1px solid var(--line); border-radius:999px; background:#fff; color:#41516b}
-    .cn{font-size:13px; color:#6a7a96; margin-top:10px}
+    footer{padding:26px 0 40px; color:var(--muted); font-size:12px; text-align:center; border-top:1px solid var(--line)}
+    code.k{padding:2px 6px; border-radius:6px; background:#0f1728; border:1px solid var(--line); font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size:12px; color:#cfe3ff}
+    .tags{display:flex; gap:6px; flex-wrap:wrap; margin-top:6px}
+    .tag{font-size:11px; padding:4px 8px; border:1px solid var(--line); border-radius:999px; background:#0e1420; color:#c6d4e7}
+    .cn{font-size:12px; color:#9fb0c6; margin-top:8px}
+    .divider{height:1px; background:linear-gradient(90deg, transparent, #24324a, transparent); margin:16px 0}
   </style>
 </head>
 <body>
   <div class="topbar">
     <div class="container">
-      <div class="note">Concept preview · 合作/出售均可 · Contact: <a href="mailto:xu456xu@gmail.com">xu456xu@gmail.com</a></div>
+      <div class="note">Concept preview · 合作/出售均可 · Contact: <a style="color:#8fdfff" href="mailto:xu456xu@gmail.com">xu456xu@gmail.com</a></div>
     </div>
   </div>
 
   <div class="container">
     <header>
       <div class="logo"><b>26CI</b> · 2026 Cognitive Intelligence</div>
-      <div style="display:flex; gap:10px; flex-wrap:wrap">
+      <div style="display:flex; gap:8px; flex-wrap:wrap">
         <a class="btn primary" href="mailto:xu456xu@gmail.com?subject=Inquiry about 26CI.com">Acquire</a>
         <a class="btn ghost" href="#highlights">Highlights</a>
       </div>
@@ -77,7 +79,7 @@
         </div>
         <h1 class="title">A clean, future‑proof brand for the 2026 era of Cognitive Intelligence.</h1>
         <p class="lead">26CI.com is a concise, memorable domain for AI‑native products: training platforms, data intelligence, voice agents, digital humans, or next‑gen education. Not just a URL — a vision for what comes next.</p>
-        <div style="display:flex; gap:10px; margin-top:14px; flex-wrap:wrap">
+        <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap">
           <a class="btn primary" href="mailto:xu456xu@gmail.com?subject=Offer for 26CI.com">Make an offer</a>
           <a class="btn" href="#usecases">Use cases</a>
         </div>
@@ -85,27 +87,29 @@
       </div>
       <div class="card hero-card">
         <div style="text-align:center">
-          <div class="muted" style="margin-bottom:8px">AI · Data · Voice · Education · Platform</div>
-          <div style="font-weight:800; font-size:26px">26CI — Cognitive Intelligence</div>
-          <div class="muted" style="margin-top:6px; font-size:13px">“26” resonates with 2026 — the next leap of AI cognition.</div>
+          <div class="muted" style="margin-bottom:6px">AI · Data · Voice · Education · Platform</div>
+          <div style="font-weight:800; font-size:24px; background:linear-gradient(135deg,var(--brand),var(--brand2)); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">26CI — Cognitive Intelligence</div>
+          <div class="muted" style="margin-top:6px; font-size:12px">“26” resonates with 2026 — the next leap of AI cognition.</div>
         </div>
       </div>
     </section>
+
+    <div class="divider"></div>
 
     <section id="highlights" class="section">
       <h2>Why 26CI.com</h2>
       <div class="grid3">
         <div class="card">
-          <h3>Short & Global</h3>
-          <p class="muted">4‑char .com. Easy to say, type, and remember. Passes the radio test.</p>
+          <h3 style="margin:0 0 6px; font-size:16px">Short & Global</h3>
+          <p class="muted" style="margin:0; font-size:14px">4‑char .com. Easy to say, type, and remember. Passes the radio test.</p>
         </div>
         <div class="card">
-          <h3>Clear Semantics</h3>
-          <p class="muted">CI = Cognitive/Creative/Customer Intelligence. Fits multiple AI verticals.</p>
+          <h3 style="margin:0 0 6px; font-size:16px">Clear Semantics</h3>
+          <p class="muted" style="margin:0; font-size:14px">CI = Cognitive/Creative/Customer Intelligence. Fits multiple AI verticals.</p>
         </div>
         <div class="card">
-          <h3>Future‑Proof</h3>
-          <p class="muted">“26” → 2026 narrative for launches, roadmaps, and investor decks.</p>
+          <h3 style="margin:0 0 6px; font-size:16px">Future‑Proof</h3>
+          <p class="muted" style="margin:0; font-size:14px">“26” → 2026 narrative for launches, roadmaps, and investor decks.</p>
         </div>
       </div>
     </section>
@@ -114,20 +118,20 @@
       <h2>Use Cases</h2>
       <div class="grid2">
         <div class="card">
-          <h3>AI Training & Tutoring</h3>
-          <p class="muted">Adaptive learning, agentic tutors, multimodal exercises, evaluation reports.</p>
+          <h3 style="margin:0 0 6px; font-size:16px">AI Training & Tutoring</h3>
+          <p class="muted" style="margin:0; font-size:14px">Adaptive learning, agentic tutors, multimodal exercises, evaluation reports.</p>
         </div>
         <div class="card">
-          <h3>Voice & Digital Humans</h3>
-          <p class="muted">Natural dialogue, pronunciation scoring, realtime coaching, avatars.</p>
+          <h3 style="margin:0 0 6px; font-size:16px">Voice & Digital Humans</h3>
+          <p class="muted" style="margin:0; font-size:14px">Natural dialogue, pronunciation scoring, realtime coaching, avatars.</p>
         </div>
         <div class="card">
-          <h3>Data/CX Intelligence</h3>
-          <p class="muted">Customer insights, smart workflows, knowledge orchestration.</p>
+          <h3 style="margin:0 0 6px; font-size:16px">Data/CX Intelligence</h3>
+          <p class="muted" style="margin:0; font-size:14px">Customer insights, smart workflows, knowledge orchestration.</p>
         </div>
         <div class="card">
-          <h3>Product Series / Labs</h3>
-          <p class="muted">Great for an AI product line, chip/SDK series, or innovation lab.</p>
+          <h3 style="margin:0 0 6px; font-size:16px">Product Series / Labs</h3>
+          <p class="muted" style="margin:0; font-size:14px">Great for an AI product line, chip/SDK series, or innovation lab.</p>
         </div>
       </div>
     </section>
@@ -135,8 +139,8 @@
     <section class="section">
       <h2>Acquisition</h2>
       <div class="card">
-        <p><strong>For sale now.</strong> Suggested list: <strong>¥2,888 CNY</strong> (≈ $399 USD). Negotiable. Secure escrow available.</p>
-        <p>Contact: <a href="mailto:xu456xu@gmail.com"><strong>xu456xu@gmail.com</strong></a></p>
+        <p style="margin:0 0 6px"><strong>For sale now.</strong> Suggested list: <strong>¥2,888 CNY</strong> (≈ $399 USD). Negotiable. Secure escrow available.</p>
+        <p style="margin:0">Contact: <a style="color:#8fdfff" href="mailto:xu456xu@gmail.com"><strong>xu456xu@gmail.com</strong></a></p>
       </div>
     </section>
 
@@ -149,7 +153,7 @@
   <script>
     document.getElementById('year').textContent=new Date().getFullYear();
     try{
-      const k1='ci_pv_new', k2='ci_lv_new';
+      const k1='ci_pv_dark', k2='ci_lv_dark';
       const pv=Number(localStorage.getItem(k1)||0)+1;
       localStorage.setItem(k1,pv);
       const last=localStorage.getItem(k2);
